@@ -278,7 +278,7 @@ export default function LandingPage() {
                     <p className="text-lg text-muted-foreground">Perfect for businesses of all sizes</p>
                   </div>
                   <div className="space-y-2">
-                    <div className="text-5xl font-bold">KES 5</div>
+                    <div className="text-5xl font-bold">KES 5000</div>
                     <div className="text-muted-foreground text-lg">per successful transaction</div>
                   </div>
                 </div>
@@ -535,7 +535,7 @@ export default function LandingPage() {
             </div>
           </div>
           <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2024 M-Pesa Portal. All rights reserved.</p>
+            <p>&copy; 2025 M-Paas Portal. All rights reserved.</p>
           </div>
         </div>
       </footer>
