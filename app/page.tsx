@@ -311,7 +311,7 @@ export default function LandingPage() {
                   </div>
                   <div className="space-y-2">
                     <div className="text-5xl font-bold">KES 5000</div>
-                    <div className="text-muted-foreground text-lg">per successful transaction</div>
+                    <div className="text-muted-foreground text-lg">per month</div>
                   </div>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4">
