@@ -23,9 +23,9 @@ export default function SignInPage() {
           <CardHeader className="space-y-4 text-center">
             <div className="flex items-center justify-center space-x-2">
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">M</span>
+                <span className="text-primary-foreground font-bold text-sm">J</span>
               </div>
-              <span className="text-xl font-bold">M-Pesa Portal</span>
+              <span className="text-xl font-bold">Jafa Systems</span>
             </div>
             <div className="space-y-2">
               <CardTitle className="text-2xl">Welcome back</CardTitle>
