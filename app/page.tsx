@@ -44,72 +44,104 @@ export default function LandingPage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative py-20 lg:py-32 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-accent/5"></div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-8">
-              <div className="space-y-4">
-                <Badge variant="secondary" className="w-fit">
-                  <Zap className="w-3 h-3 mr-1" />
-                  Trusted by 10,000+ businesses
-                </Badge>
-                <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                  Seamless <span className="text-primary">STK Push</span> Payments for Your Business
-                </h1>
-                <p className="text-xl text-muted-foreground leading-relaxed">
-                  The most reliable STK Push API platform. Send payment prompts directly to your customers' phones and
-                  get instant confirmations. No USSD codes, no hassle.
-                </p>
-              </div>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="text-lg px-8 py-6 animate-pulse-glow" asChild>
-                  <Link href="/signup">
-                    Start STK Push Free
-                    <ArrowRight className="ml-2 w-5 h-5" />
-                  </Link>
-                </Button>
-                <Button size="lg" variant="outline" className="text-lg px-8 py-6 bg-transparent" asChild>
-                  <Link href="#demo">View Live Demo</Link>
-                </Button>
-              </div>
-              <div className="flex items-center space-x-6 text-sm text-muted-foreground">
-                <div className="flex items-center space-x-1">
-                  <CheckCircle className="w-4 h-4 text-primary" />
-                  <span>No setup fees</span>
+      <section className="bg-white py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="max-w-4xl mx-auto space-y-8">
+            <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+              All-in-One Finance and
+              <br />
+              Payments Hub
+            </h1>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Simplify your business payments with our powerful M-Pesa STK Push API. Send payment prompts directly to
+              customer phones with 99.9% delivery rate.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 px-8 py-3">
+                Get Started Free
+              </Button>
+              <Button size="lg" variant="outline" className="px-8 py-3 bg-transparent">
+                Watch Demo
+              </Button>
+            </div>
+          </div>
+
+          <div className="mt-16 flex justify-center items-end space-x-8">
+            <div className="w-64 h-96 bg-gray-900 rounded-3xl p-2 transform rotate-12">
+              <div className="w-full h-full bg-white rounded-2xl p-4 flex flex-col">
+                <div className="flex items-center justify-between mb-4">
+                  <div className="text-xs font-semibold">9:41</div>
+                  <div className="flex space-x-1">
+                    <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
+                    <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
+                    <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
+                  </div>
                 </div>
-                <div className="flex items-center space-x-1">
-                  <CheckCircle className="w-4 h-4 text-primary" />
-                  <span>Instant STK prompts</span>
-                </div>
-                <div className="flex items-center space-x-1">
-                  <CheckCircle className="w-4 h-4 text-primary" />
-                  <span>Real-time callbacks</span>
+                <div className="text-lg font-bold mb-2">Dashboard</div>
+                <div className="space-y-2 flex-1">
+                  <div className="h-3 bg-gray-200 rounded"></div>
+                  <div className="h-3 bg-gray-200 rounded w-3/4"></div>
+                  <div className="h-20 bg-emerald-100 rounded mt-4"></div>
                 </div>
               </div>
             </div>
-            <div className="relative">
-              <div className="bg-card border border-border rounded-2xl p-6 shadow-2xl animate-float">
-                <div className="space-y-4">
-                  <div className="flex items-center justify-between">
-                    <h3 className="font-semibold">STK Push Demo</h3>
-                    <Badge variant="secondary">Live</Badge>
+
+            <div className="w-64 h-96 bg-gray-900 rounded-3xl p-2 z-10">
+              <div className="w-full h-full bg-white rounded-2xl p-4 flex flex-col">
+                <div className="flex items-center justify-between mb-4">
+                  <div className="text-xs font-semibold">9:41</div>
+                  <div className="flex space-x-1">
+                    <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
+                    <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
+                    <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
                   </div>
-                  <div className="space-y-3">
-                    <div>
-                      <label className="text-sm text-muted-foreground">Amount (KES)</label>
-                      <div className="mt-1 p-3 bg-muted rounded-lg">KES 1,500</div>
-                    </div>
-                    <div>
-                      <label className="text-sm text-muted-foreground">Phone Number</label>
-                      <div className="mt-1 p-3 bg-muted rounded-lg">+254 700 123456</div>
-                    </div>
-                    <Button className="w-full">Send STK Push</Button>
+                </div>
+                <div className="text-lg font-bold mb-4">STK Push</div>
+                <div className="space-y-4 flex-1">
+                  <div className="p-3 bg-gray-100 rounded-lg">
+                    <div className="text-xs text-gray-500 mb-1">Amount</div>
+                    <div className="font-bold">KES 1,500</div>
+                  </div>
+                  <div className="p-3 bg-gray-100 rounded-lg">
+                    <div className="text-xs text-gray-500 mb-1">Phone</div>
+                    <div className="font-bold">+254 700 123456</div>
+                  </div>
+                  <Button className="w-full bg-emerald-600 hover:bg-emerald-700 mt-4">Send Payment</Button>
+                </div>
+              </div>
+            </div>
+
+            <div className="w-64 h-96 bg-gray-900 rounded-3xl p-2 transform -rotate-12">
+              <div className="w-full h-full bg-white rounded-2xl p-4 flex flex-col">
+                <div className="flex items-center justify-between mb-4">
+                  <div className="text-xs font-semibold">9:41</div>
+                  <div className="flex space-x-1">
+                    <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
+                    <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
+                    <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
+                  </div>
+                </div>
+                <div className="text-lg font-bold mb-2">Analytics</div>
+                <div className="space-y-2 flex-1">
+                  <div className="h-3 bg-gray-200 rounded"></div>
+                  <div className="h-3 bg-gray-200 rounded w-2/3"></div>
+                  <div className="h-16 bg-emerald-100 rounded mt-4"></div>
+                  <div className="grid grid-cols-2 gap-2 mt-4">
+                    <div className="h-8 bg-emerald-100 rounded"></div>
+                    <div className="h-8 bg-purple-100 rounded"></div>
                   </div>
                 </div>
               </div>
-              <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary/10 rounded-full blur-xl"></div>
-              <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-accent/10 rounded-full blur-xl"></div>
+            </div>
+          </div>
+
+          <div className="mt-16 flex justify-center items-center space-x-12 opacity-60">
+            <div className="text-sm font-medium text-gray-500">Trusted by</div>
+            <div className="flex items-center space-x-8">
+              <div className="w-20 h-8 bg-gray-200 rounded"></div>
+              <div className="w-20 h-8 bg-gray-200 rounded"></div>
+              <div className="w-20 h-8 bg-gray-200 rounded"></div>
+              <div className="w-20 h-8 bg-gray-200 rounded"></div>
             </div>
           </div>
         </div>
