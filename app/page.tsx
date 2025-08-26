@@ -44,7 +44,7 @@ export default function LandingPage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-white py-20">
+     <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="max-w-4xl mx-auto space-y-8">
             <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
@@ -324,9 +324,6 @@ export default function LandingPage() {
                   <Button size="lg" variant="outline" className="text-lg px-8 py-6 bg-transparent">
                     View Documentation
                   </Button>
-                </div>
-                <div className="text-center sm:text-left text-sm text-muted-foreground">
-                  No setup fees • No monthly charges • Cancel anytime
                 </div>
               </div>
 
