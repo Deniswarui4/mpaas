@@ -13,9 +13,9 @@ export default function LandingPage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">M</span>
+                <span className="text-primary-foreground font-bold text-sm">J</span>
               </div>
-              <span className="text-xl font-bold text-foreground">M-Pesa Portal</span>
+              <span className="text-xl font-bold text-foreground">Jafa Systems</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <Link href="#features" className="text-muted-foreground hover:text-foreground transition-colors">
@@ -450,9 +450,9 @@ export default function LandingPage() {
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
                 <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                  <span className="text-primary-foreground font-bold text-sm">M</span>
+                  <span className="text-primary-foreground font-bold text-sm">J</span>
                 </div>
-                <span className="text-xl font-bold">M-Pesa Portal</span>
+                <span className="text-xl font-bold">Jafa Systems</span>
               </div>
               <p className="text-muted-foreground">
                 The most reliable STK Push API platform for businesses across Kenya and East Africa.
@@ -535,7 +535,7 @@ export default function LandingPage() {
             </div>
           </div>
           <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2025 M-Paas Portal. All rights reserved.</p>
+            <p>&copy; 2025 Jafa Systems. All rights reserved.</p>
           </div>
         </div>
       </footer>
