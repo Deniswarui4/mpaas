@@ -455,7 +455,7 @@ export default function LandingPage() {
                 <span className="text-xl font-bold">Jafa Systems</span>
               </div>
               <p className="text-muted-foreground">
-                The most reliable STK Push API platform for businesses across Kenya and East Africa.
+                The most reliable STK Push API platform for businesses across Kenya.
               </p>
             </div>
             <div>
