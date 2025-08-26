@@ -4,7 +4,7 @@ import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Mpaas ~> STK Push made easy',
+  title:  'Jafa Systems ~> STK Push made easy',
   description: 'STK Push made easy',
 }
 
